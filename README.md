@@ -73,11 +73,7 @@
 ### 2. 搜索输入框
 
 ```html
-<form
-  id="gridea-search-form"
-  data-update="<%=site.utils.now%>"
-  action="/search/"
->
+<form id="gridea-search-form" data-update="<%= site.utils.now %>" action="<%= themeConfig.domain %>/search/">
   <input name="q" />
 </form>
 ```
